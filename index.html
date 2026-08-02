@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<title>100 Ngày Của Chúng Mình</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sparkles" id="sparkles"></div>
+
+<div id="app">
+
+  <!-- ================= SCENE 0 : ENVELOPE ================= -->
+  <section class="scene active" id="scene-envelope">
+    <div class="env-wrap">
+      <p class="eyebrow">Cảm ơn em bé iu đã nắm tay anh 100 ngày qua</p>
+      <h1 class="env-title">Gửi em người con gái anh yêu</h1>
+      <div class="envelope" id="envelope">
+        <div class="env-back"></div>
+        <div class="env-letter-peek"></div>
+        <div class="env-front-l"></div>
+        <div class="env-front-r"></div>
+        <div class="env-flap"></div>
+        <button class="wax-seal" id="btn-open-envelope" aria-label="Mở thư">&#10084;</button>
+      </div>
+      <p class="env-sub">Chạm trái tim để xem tâm tư của anh i bxa iu</p>
+    </div>
+  </section>
+
+  <!-- ================= SCENE 1 : BIG HEART ================= -->
+  <section class="scene" id="scene-heart">
+    <div class="heart-stage">
+      <div class="heart-svg-wrap">
+        <svg viewBox="0 0 100 100" width="100%" height="100%">
+          <defs>
+            <clipPath id="heartClip">
+              <path d="M50 30 C 50 5, 15 5, 15 30 C 15 55, 50 70, 50 95 C 50 70, 85 55, 85 30 C 85 5, 50 5, 50 30 Z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#heartClip)">
+            <g id="heartTextFill"></g>
+          </g>
+        </svg>
+      </div>
+      <p class="heart-caption">Em có biết anh yêu em nhiều lắm hăm</p>
+
+      <div class="heart-question-row">
+        <button class="btn" id="btn-yes">Có</button>
+        <button class="btn btn-ghost" id="btn-no">Hăm</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SCENE 2 : LETTER 1 ================= -->
+  <section class="scene" id="scene-letter1">
+    <div class="letter-card">
+      <div class="letter-seal">&#10084;</div>
+      <div class="photo-frame">
+        <img src="images/kid.png" alt="Ảnh của hai đứa mình" onerror="this.classList.add('broken')">
+        <p class="photo-fallback"> images/anh1.jpg</p>
+      </div>
+      <p class="letter-heading">Gửi đến em người con gái ngoài mẹ nhưng lại là người anh yêu thương nhứt</p>
+      <div class="letter-divider"></div>
+      <p class="letter-body"><span class="dropcap">C</span>ảm ơn em 100 ngày qua đã nắm tay anh, đã đồng hành cùng anh. Anh từng nghĩ là thật nhảm nhí khi thấy các cặp đôi lại tặng quà khi anni 1 tháng hay 100 ngày, nhưng đến khi cùng em bước trên đoạn đường này anh mới nhận ra ở bên 1 người lại nhiều trắc trở đến như vậy. Nhưng điều đó lại làm anh yêu em hơn, trân trọng em hơn và cố gắng nhiều hơn trong mối quan hệ của 2 đứa mình, vì anh chợt nhận ra hạnh phúc nó hong phải nằm ở thứ gì quá cao siu mà hạnh phúc của anh là được yêu và thương em , được nghe em nói và được nói anh yêu em .</p>
+      <button class="btn btn-gold" id="btn-letter1-next">Trang típ theo i bxa &#8594;</button>
+    </div>
+  </section>
+
+  <!-- ================= SCENE 3 : LETTER 2 ================= -->
+  <section class="scene" id="scene-letter2">
+    <div class="letter-card">
+      <div class="letter-seal">&#10084;</div>
+      <p class="letter-heading">Xin trao em tất cả sự dịu dàng của anh</p>
+      <div class="letter-divider"></div>
+      <p class="letter-body"><span class="dropcap">C</span>ảm ơn em đã cho anh cơ hội được yêu em, được quan tâm em, chăm sóc em, được thương em, được em ôm, em thơm má; cảm ơn em đã nhõng nhẽo bướng bỉnh với anh, cảm ơn em những lần suy nghĩ xấu cho anh, cảm ơn những cái áo em tặng, cảm ơn lá thư em âm thầm chuẩn bị cho anh. Thật sự mà nói thì anh chưa từng thấy phiền phức hay chán ghét bất cứ điều gì về em cả vì anh hiểu tất cả chỉ vì yêu và thương anh thoi. Anh lúc nào cũng yêu và thương em hết ,yêuu cái đồ đáng yêu hì sogi ebee nghen làm dì mà rep tin nhắn chậm , làm dì mà giấu giấu em bữa h gòi bày đặc cho chọn 3 hay 5 nữa . Bửa h là anh ngồi viết thư học cách vẽ tim bằng code mà có tên bxa nè , đặt tình yêu nhỏ xíu vô mấy lá thư nhưng đầy sự chân thành của anh ạ.</p>
+      <p class="letter-signoff">Đạt yêu Thuỳ Lâm !</p>
+      <button class="btn btn-gold" id="btn-letter2-next">Bí mật típ theo &#8594;</button>
+    </div>
+  </section>
+
+  <!-- ================= SCENE 4 : BLEEDING HEART ================= -->
+  <section class="scene" id="scene-bleed">
+    <div class="bleed-question-view" id="bleedQuestionView">
+      <div class="bleed-stage">
+        <div class="bleed-svg-wrap">
+          <svg viewBox="0 0 100 100" width="100%" height="100%">
+            <defs>
+              <linearGradient id="bleedGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#e8385a"/>
+                <stop offset="100%" stop-color="#5c1024"/>
+              </linearGradient>
+            </defs>
+            <path d="M50 30 C 50 5, 15 5, 15 30 C 15 55, 50 70, 50 95 C 50 70, 85 55, 85 30 C 85 5, 50 5, 50 30 Z" fill="url(#bleedGrad)"/>
+          </svg>
+          <div class="drip" style="left:42%; top:78%; animation-delay:.2s;"></div>
+          <div class="drip" style="left:52%; top:80%; animation-delay:1.3s;"></div>
+          <div class="drip" style="left:60%; top:75%; animation-delay:2.1s;"></div>
+        </div>
+        <p class="bleed-caption question">Bxa có bic tại sao anh lại yêu và thương em hong ?</p>
+      </div>
+      <div class="bleed-actions">
+        <button class="btn" id="btn-bleed-ask">Để oxa bật mí nha</button>
+      </div>
+    </div>
+
+    <div class="letter-card" id="bleedAnswerView" style="display:none;">
+      <div class="letter-seal">&#10084;</div>
+      <p class="letter-heading">Đơn giản là ...</p>
+      <div class="letter-divider"></div>
+      <p class="letter-body"><span class="dropcap">C</span>hẳng có lý do gì hết trơn á vì trong tình yêu, ngoài tình yêu thì chẳng cần bất cứ lý do nào khác. Anh yêu em , anh cảm ơn em và anh cần em , anh yêu yêu yêu em bé nhỏ nhứtttt. Mong sao cho anh và em yêu nhau theo cách trọng vẹn nhất , chỉ cần được ôm em thì mọi muộn phiền trong anh sẽ tan biến hết. Cảm ơn em vì đã giành thời gian cho anh cảm ơn vì đã cho anh cơ hội được nói lời yêu em .</p>
+      <button class="btn btn-gold" id="btn-bleed-next">Tiếp &#8594;</button>
+    </div>
+  </section>
+
+
+  <!-- ================= SCENE 5 : TIMELINE ================= --> 
+  <section class="scene" id="scene-timeline">
+    <h2 class="tl-title">Chặng đường 100 ngày</h2>
+    <div class="timeline">
+
+      <div class="tl-node" data-node="1">
+        <button class="tl-dot" aria-label="Xem mốc 1"></button>
+        <div class="tl-label">
+          <div class="tl-date">Ngày ông trời cho anh gặp được tình yêu đời mình</div>
+          <div class="tl-title-sm">Bắt đầu với sự ngượng ngùng và cái ôm sau xe</div>
+        </div>
+      </div>
+
+      <div class="tl-node" data-node="2">
+        <button class="tl-dot" aria-label="Xem mốc 2"></button>
+        <div class="tl-label">
+          <div class="tl-date">Sau 1 tháng quen nhau</div>
+          <div class="tl-title-sm">Tháng có nhiều suy nghĩ tiêu cực nhất của đôi ta</div>
+        </div>
+      </div>
+
+      <div class="tl-node" data-node="2-5">
+        <button class="tl-dot" aria-label="Xem mốc 2 tháng"></button>
+        <div class="tl-label">
+          <div class="tl-date">2 tháng mình quen</div>
+          <div class="tl-title-sm">Mỗi một ngày lại thêm yêu em</div>
+        </div>
+      </div>
+
+      <div class="tl-node" data-node="3">
+        <button class="tl-dot" aria-label="Xem mốc 3"></button>
+        <div class="tl-label">
+          <div class="tl-date">Cuối cùng là hành trình 100 ngày của bxa và anh</div>
+          <div class="tl-title-sm">Yeyeyeye-!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- detail panels, placed after each node via JS-independent markup -->
+    <div class="tl-detail" id="tl-detail-1" style="width:min(92vw,560px)">
+      <div class="tl-detail-inner">
+        <div class="photo-frame">
+          <img src="images/2.jpg" alt="Mốc 1" onerror="this.classList.add('broken')">
+          <p class="photo-fallback">Đặt ảnh vào file images/tl1.jpg</p>
+        </div>
+        <p class="top-caption">Từ vài lời chúc rồi dần thành những lần cười nói , hỏi han và quan tâm nhau</p>
+        <p class="bottom-caption">Anh nhận ra mình thích em từ lúc thức muộn thêm tí để nhắn tin với em để dỗ em . Chẳng nhớ rõ là ngày nào anh chỉ nhớ là buổi sáng được em chào buổi sáng , tối thì chúc nhau ngủ ngon , chỉ mong mỗi một dòng thông báo trên điện thoại là của em nhắn cho anh . Và chẳng muốn em nhắn tin với chàng trai nào, bất giác khó chịu trong lòng khi em khoe ảnh họ và hỏi là : "người này có được hong". Cha già bớt sến , nít ranh tai biến , gòi cứ thế mà cười nói với nhau đủ thứ chuyện trên trời dưới đất . Người thì thức khuya thêm một xí người thì cố gắng thức sớm hơn cũng để chào buổi sáng và cùng trò chuyện rồi chúc nhau ngủ ngon mỗi ngày .</p>
+      </div>
+    </div>
+
+    <div class="tl-detail" id="tl-detail-2" style="width:min(92vw,560px)">
+      <div class="tl-detail-inner">
+        <div class="photo-frame">
+          <img src="images/3.jpg" alt="Mốc 2" onerror="this.classList.add('broken')">
+          <p class="photo-fallback">Đặt ảnh vào file images/tl2.jpg</p>
+        </div>
+        <p class="top-caption">Những ngày đầu ngại ngùng, tim đập loạn nhịp khi ở cùng nhau, những lần cả 2 đều nghĩ là mình không được thương mặc dù anh và em đều yêu và thương nhau rất nhiều.</p>
+        <p class="bottom-caption">Những lần em nói em bùn, em khóc, em bị ốm đau hay bệnh lòng anh chợt nhói lên 1 nhịp thấy xót em vô cùng điều đó làm anh nhận ra anh đã yêu và thương em rất nhiều và em cũm như z. Em nói anh hong yêu hong thương anh nghe chỉ thấy em khờ thấy thương em nhìu hơn thui , em từng nói với anh là: " em hậu đậu chiên cá thì sống , đi hong nhìn đường , hay vấp té hậu đậu thì anh có yêu em hong " nhưng chính điều em cho là hong hoàng hảo về bản thân mình lại là điều làm trái tim anh rung thêm 1 nhịp , làm anh thương em hơn đó!</p>
+      </div>
+    </div>
+
+    <div class="tl-detail" id="tl-detail-2-5" style="width:min(92vw,560px)">
+      <div class="tl-detail-inner">
+        <div class="photo-frame">
+          <img src="images/4.jpg" alt="Mốc 2 tháng" onerror="this.classList.add('broken')">
+          <p class="photo-fallback">Đặt ảnh vào file images/tl2-5.jpg</p>
+        </div>
+        <p class="top-caption">Hai tháng tràn ngập tình iu và nỗi nhớ nhung, luôn có hình bóng nhau trong tâm trí kể cả khi hong gặp.</p>
+        <p class="bottom-caption">Anh nhớ những cuộc gọi dặn nhau ngủ ngon , nhắn tin đến mức mắt mở hong lên ngủ quên nhưng vẫn cố xíu nữa để được trò chuyện cùng người anh thương , những lần em bực bội nhõng nhẽo khi bị anh ghẹo, và những phút giây bận rộn trong cuộc sống mà vẫn nhớ nhung nhau mỗi ngày . Sau 2 tháng, qua những lần cười nói những lần làm tổn thương thì anh hiểu được rằng chẳng ai muốn làm người mình thương buồn hết tất cả chỉ là sự vô tình thoi . Cảm ơn em đã tha thứ đã bao dung anh vô số lần , cảm ơn em đã cho phép anh được nắm tay em , cảm ơn vì đã tin tưởng anh .</p>
+      </div>
+    </div>
+
+    <div class="tl-detail" id="tl-detail-3" style="width:min(92vw,560px)">
+      <div class="tl-detail-inner">
+        <div class="photo-frame">
+          <img src="images/4.jpg" alt="Mốc 3" onerror="this.classList.add('broken')">
+          <p class="photo-fallback">Đặt ảnh vào file images/tl3.jpg</p>
+        </div>
+        <p class="top-caption">Cảm ơn em đã đến bên anh nắm tay anh hết 100 ngày qua</p>
+        <p class="bottom-caption">Anh yêu em, yêu luôn những gì em cho là xấu xí của bản thân mình, anh nói anh yêu em thì anh chắc chắn 1 điều là anh yêu hết tất cả mọi thứ về em. Anh dám chắc chắn 1 điều là vì em anh có thể từ bỏ mọi thứ vui xung quanh , anh yêu bxa nhiều hơn những gì anh có thể nói thành lời , em là món quà lớn nhất là vật vô giá , và em là ánh sáng của đời anh. Nhiều lúc em ôm sau xe anh thấy mình thật hạnh phúc và muốn nói ra thật nhiều điều nhưng miệng chỉ cười và thốt ra từ anh yêu em. Mong em cứ nói ra bất cứ điều gì với anh như em bé mà chẳng cần suy nghĩ gì ❤️</p>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
